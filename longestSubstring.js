@@ -1,4 +1,4 @@
-var lengthOfLongestSubstring = function (s) {
+const longestSubstrDistinctChars = (s) => {
   var start = 0, maxLen = 0;
   var map = new Map();
 
@@ -13,3 +13,7 @@ var lengthOfLongestSubstring = function (s) {
 
   return maxLen;
 };
+
+
+longestSubstrDistinctChars("geeksforgeeks"); // output = 7
+longestSubstrDistinctChars("aaa"); // output = 1
